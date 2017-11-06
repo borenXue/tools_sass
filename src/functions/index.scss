@@ -1,0 +1,21 @@
+// Function API:  http://sass-lang.com/documentation/Sass/Script/Functions.html
+
+@function px2rem($px, $baseFontSize: 14px) {
+  @if (unitless($px)) {
+    @return pxToREM(#{$px}px, $baseFontSize);
+  } @else if (unit($px) == rem) {
+    @return $px;
+  } @else {
+    @return ($px / $baseFontSize) * 1rem; 
+  }
+}
+
+@function rem2px($rem, $baseFontSize: 14px) {
+  @if (unitless($rem)) {
+    @return remToPX(#{$rem}rem, $baseFontSize);
+  } @else if (unit($rem) == px) {
+    @return $rem;
+  } @else {
+    @return ($rem / 1rem) * $baseFontSize; 
+  }
+}
