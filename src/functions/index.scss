@@ -2,7 +2,7 @@
 
 @function px2rem($px, $baseFontSize: 14px) {
   @if (unitless($px)) {
-    @return pxToREM(#{$px}px, $baseFontSize);
+    @return px2rem(#{$px}px, $baseFontSize);
   } @else if (unit($px) == rem) {
     @return $px;
   } @else {
@@ -12,7 +12,7 @@
 
 @function rem2px($rem, $baseFontSize: 14px) {
   @if (unitless($rem)) {
-    @return remToPX(#{$rem}rem, $baseFontSize);
+    @return rem2px(#{$rem}rem, $baseFontSize);
   } @else if (unit($rem) == px) {
     @return $rem;
   } @else {
