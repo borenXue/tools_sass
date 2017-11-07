@@ -106,8 +106,8 @@ $ git subtree pull --prefix=public_modules/tools_sass tools_sass master
 
 
 | Module | SubModule | Mixin Name | Demo |
-| ---------- | ---------- |
-| Border-Box |
+| ---------- | ---------- | ---------- | ---------- |
+| Border-Box | | | |
 |  | -- | square | square(200px) |
 |  | -- | circle | circle(200px) |
 |  | -- | box-shadow | box-shadow(0 0 3px #525252) |
