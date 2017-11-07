@@ -106,14 +106,17 @@ $ git subtree pull --prefix=public_modules/tools_sass tools_sass master
 
 
 | Module | SubModule | Mixin Name | Demo |
-| ---------- | ---------- |
-| Border-Box |
+| ---------- | ---------- | ---------- | ---------- |
+| Border-Box | | | |
 |  | -- | square | square(200px) |
 |  | -- | circle | circle(200px) |
 |  | -- | box-shadow | box-shadow(0 0 3px #525252) |
 |  | border-radius | border-radius | border-radius(8px) |
 |  |  | border-top-right-radius | border-top-right-radius(8px) |
 |  |  | border-top-left-radius | border-top-left-radius(8px) |
+
+
+* 式
 
 | Module | SubModule | Mixin Name | Demo |
 | ---------- | ---------- |
