@@ -114,6 +114,9 @@ $ git subtree pull --prefix=public_modules/tools_sass tools_sass master
 |  | border-radius | border-radius | border-radius(8px) |
 |  |  | border-top-right-radius | border-top-right-radius(8px) |
 |  |  | border-top-left-radius | border-top-left-radius(8px) |
+
+| Module | SubModule | Mixin Name | Demo |
+| ---------- | ---------- |
 |  |  | border-bottom-right-radius | border-bottom-right-radius(8px) |
 |  |  | border-bottom-left-radius | border-bottom-left-radius(8px) |
 |  |  | border-top-radius | border-top-radius(8px) |
