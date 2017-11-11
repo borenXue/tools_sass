@@ -3,6 +3,9 @@
  * public style class
  *  
  */
+%border-box {
+  @include box-sizing(border-box);
+}
 %uppercase{
   text-transform:uppercase;
   input{

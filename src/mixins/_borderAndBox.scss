@@ -27,6 +27,11 @@
   border-radius: $radius;
 }
 
+@mixin box-sizing($v: border-box){
+  box-sizing: $v;
+  -webkit-box-sizing: $v;
+}
+
 /**
  *  Usage:
  *    .temp-div {
