@@ -110,8 +110,8 @@
     pointer-events: none;
     content: '';    // sass-lint:disable-line variable-for-property
     border-radius: $borderRadius;
-    height: 200%;
-    width: 200%;
+    height: 100%;
+    width: 100%;
     position: absolute;
     top: 0;
     left: 0;
@@ -125,6 +125,8 @@
   }
   @media screen and (-webkit-min-device-pixel-ratio: 2) {
     &::#{$beforeAfter}{
+      height: 200%;
+      width: 200%;
       @if $position == 'all' {
         @include scale(.5);
         @include transform-origin(0, 0);
